@@ -1,0 +1,35 @@
+cff-version: 1.2.0
+message: "If you use this software, please cite both the software and the preprint below."
+type: software
+title: "When Do Surrogate Metrics Work? A Finite-Sample Comparison Under Realistic Failure Modes"
+abbreviated-title: "surrogate_metrics"
+authors:
+  - family-names: "Chen"
+    given-names: "Zihao"
+    affiliation: "University of Washington"
+year: 2026
+license: MIT
+repository-code: "https://github.com/zc-seattle/surrogate-metrics-replication"
+keywords:
+  - surrogate metrics
+  - surrogate index
+  - prediction-powered inference
+  - causal inference
+  - A/B testing
+
+preferred-citation:
+  type: article
+  title: "When Do Surrogate Metrics Work? A Finite-Sample Comparison Under Realistic Failure Modes"
+  authors:
+    - family-names: "Chen"
+      given-names: "Zihao"
+      affiliation: "University of Washington"
+  year: 2026
+  journal: "arXiv preprint"
+  # NOTE: fill in once the preprint is posted.
+  notes: "arXiv ID to be added"
+  identifiers:
+    - type: other
+      value: "arXiv:XXXX.XXXXX"
+      description: "arXiv identifier (placeholder; to be added on posting)"
+  url: "https://arxiv.org/abs/XXXX.XXXXX"

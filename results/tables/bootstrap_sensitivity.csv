@@ -1,0 +1,55 @@
+dgp,config_name,pi_L,n,R,protocol,method_id,method_label,lambda_rule,clip,per_arm,variance,si_variance,alpha,target,seed,true_tau,n_valid,bias,rel_bias,rmse,coverage,ci_width,rejection,cdr,relative_efficiency,mc_se_bias,mc_se_rmse,mc_se_coverage,mc_se_ci_width,mc_se_rejection,mc_se_cdr,B,analysis,param_B,param_pi_L
+1,pi_L=0.05; B=nan,0.05,10000.0,500,allunits_crossfit,3,"PPI++ (plug-in lambda, plug-in variance)",plugin,True,False,plugin,,0.05,ATE,42,,,,,,0.956,0.36539173475709325,,,,,,,,,,,bootstrap_sensitivity,,0.05
+1,pi_L=0.05; B=nan,0.05,10000.0,500,allunits_crossfit,8,"PPI++ (plug-in lambda, clipped)",plugin,True,False,exact,,0.05,ATE,42,,,,,,0.956,0.3666375294881768,,,,,,,,,,,bootstrap_sensitivity,,0.05
+1,pi_L=0.05; B=nan,0.05,10000.0,500,allunits_crossfit,3,PPI++ (plug-in variance),exact,False,False,plugin,,0.05,ATE,42,,,,,,0.956,0.36631086245364286,,,,,,,,,,,bootstrap_sensitivity,,0.05
+1,pi_L=0.05; B=nan,0.05,10000.0,500,allunits_crossfit,3,PPI++,exact,False,False,exact,,0.05,ATE,42,,,,,,0.956,0.36631515066982295,,,,,,,,,,,bootstrap_sensitivity,,0.05
+1,pi_L=0.05; B=50.0,0.05,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.92,0.33680570442155233,,,,,,,,,,50.0,bootstrap_sensitivity,50.0,0.05
+1,pi_L=0.05; B=100.0,0.05,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.942,0.3511038360225235,,,,,,,,,,100.0,bootstrap_sensitivity,100.0,0.05
+1,pi_L=0.05; B=200.0,0.05,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.942,0.35823197467175605,,,,,,,,,,200.0,bootstrap_sensitivity,200.0,0.05
+1,pi_L=0.05; B=500.0,0.05,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.95,0.36438467984654227,,,,,,,,,,500.0,bootstrap_sensitivity,500.0,0.05
+1,pi_L=0.05; B=1000.0,0.05,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.954,0.3657415078052102,,,,,,,,,,1000.0,bootstrap_sensitivity,1000.0,0.05
+1,pi_L=0.1; B=nan,0.1,10000.0,500,allunits_crossfit,3,"PPI++ (plug-in lambda, plug-in variance)",plugin,True,False,plugin,,0.05,ATE,42,,,,,,0.948,0.2650619339687278,,,,,,,,,,,bootstrap_sensitivity,,0.1
+1,pi_L=0.1; B=nan,0.1,10000.0,500,allunits_crossfit,8,"PPI++ (plug-in lambda, clipped)",plugin,True,False,exact,,0.05,ATE,42,,,,,,0.956,0.26790614357248627,,,,,,,,,,,bootstrap_sensitivity,,0.1
+1,pi_L=0.1; B=nan,0.1,10000.0,500,allunits_crossfit,3,PPI++ (plug-in variance),exact,False,False,plugin,,0.05,ATE,42,,,,,,0.95,0.2667076073734073,,,,,,,,,,,bootstrap_sensitivity,,0.1
+1,pi_L=0.1; B=nan,0.1,10000.0,500,allunits_crossfit,3,PPI++,exact,False,False,exact,,0.05,ATE,42,,,,,,0.95,0.26670869542443354,,,,,,,,,,,bootstrap_sensitivity,,0.1
+1,pi_L=0.1; B=50.0,0.1,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.918,0.2476804844792888,,,,,,,,,,50.0,bootstrap_sensitivity,50.0,0.1
+1,pi_L=0.1; B=100.0,0.1,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.934,0.2571162343703346,,,,,,,,,,100.0,bootstrap_sensitivity,100.0,0.1
+1,pi_L=0.1; B=200.0,0.1,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.948,0.2630443350395648,,,,,,,,,,200.0,bootstrap_sensitivity,200.0,0.1
+1,pi_L=0.1; B=500.0,0.1,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.946,0.2661920043370274,,,,,,,,,,500.0,bootstrap_sensitivity,500.0,0.1
+1,pi_L=0.1; B=1000.0,0.1,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.948,0.26676054403865374,,,,,,,,,,1000.0,bootstrap_sensitivity,1000.0,0.1
+1,pi_L=0.2; B=nan,0.2,10000.0,500,allunits_crossfit,3,"PPI++ (plug-in lambda, plug-in variance)",plugin,True,False,plugin,,0.05,ATE,42,,,,,,0.934,0.19589124179917036,,,,,,,,,,,bootstrap_sensitivity,,0.2
+1,pi_L=0.2; B=nan,0.2,10000.0,500,allunits_crossfit,8,"PPI++ (plug-in lambda, clipped)",plugin,True,False,exact,,0.05,ATE,42,,,,,,0.94,0.20223025314262455,,,,,,,,,,,bootstrap_sensitivity,,0.2
+1,pi_L=0.2; B=nan,0.2,10000.0,500,allunits_crossfit,3,PPI++ (plug-in variance),exact,False,False,plugin,,0.05,ATE,42,,,,,,0.944,0.19972389550033895,,,,,,,,,,,bootstrap_sensitivity,,0.2
+1,pi_L=0.2; B=nan,0.2,10000.0,500,allunits_crossfit,3,PPI++,exact,False,False,exact,,0.05,ATE,42,,,,,,0.944,0.19972547573664695,,,,,,,,,,,bootstrap_sensitivity,,0.2
+1,pi_L=0.2; B=50.0,0.2,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.9,0.18567999637089663,,,,,,,,,,50.0,bootstrap_sensitivity,50.0,0.2
+1,pi_L=0.2; B=100.0,0.2,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.922,0.19361923648135576,,,,,,,,,,100.0,bootstrap_sensitivity,100.0,0.2
+1,pi_L=0.2; B=200.0,0.2,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.924,0.19728106488117192,,,,,,,,,,200.0,bootstrap_sensitivity,200.0,0.2
+1,pi_L=0.2; B=500.0,0.2,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.942,0.2002280253191835,,,,,,,,,,500.0,bootstrap_sensitivity,500.0,0.2
+1,pi_L=0.2; B=1000.0,0.2,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.94,0.20102980739700027,,,,,,,,,,1000.0,bootstrap_sensitivity,1000.0,0.2
+1,pi_L=0.5; B=nan,0.5,10000.0,500,allunits_crossfit,3,"PPI++ (plug-in lambda, plug-in variance)",plugin,True,False,plugin,,0.05,ATE,42,,,,,,0.942,0.13569091441008194,,,,,,,,,,,bootstrap_sensitivity,,0.5
+1,pi_L=0.5; B=nan,0.5,10000.0,500,allunits_crossfit,8,"PPI++ (plug-in lambda, clipped)",plugin,True,False,exact,,0.05,ATE,42,,,,,,0.964,0.14993074768988449,,,,,,,,,,,bootstrap_sensitivity,,0.5
+1,pi_L=0.5; B=nan,0.5,10000.0,500,allunits_crossfit,3,PPI++ (plug-in variance),exact,False,False,plugin,,0.05,ATE,42,,,,,,0.966,0.14650478365163308,,,,,,,,,,,bootstrap_sensitivity,,0.5
+1,pi_L=0.5; B=nan,0.5,10000.0,500,allunits_crossfit,3,PPI++,exact,False,False,exact,,0.05,ATE,42,,,,,,0.966,0.1465064504847247,,,,,,,,,,,bootstrap_sensitivity,,0.5
+1,pi_L=0.5; B=50.0,0.5,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.94,0.138616487713686,,,,,,,,,,50.0,bootstrap_sensitivity,50.0,0.5
+1,pi_L=0.5; B=100.0,0.5,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.958,0.14374936126169108,,,,,,,,,,100.0,bootstrap_sensitivity,100.0,0.5
+1,pi_L=0.5; B=200.0,0.5,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.954,0.1469649384289948,,,,,,,,,,200.0,bootstrap_sensitivity,200.0,0.5
+1,pi_L=0.5; B=500.0,0.5,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.956,0.14878537044630258,,,,,,,,,,500.0,bootstrap_sensitivity,500.0,0.5
+1,pi_L=0.5; B=1000.0,0.5,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.962,0.14933304312941742,,,,,,,,,,1000.0,bootstrap_sensitivity,1000.0,0.5
+1,pi_L=0.8; B=nan,0.8,10000.0,500,allunits_crossfit,3,"PPI++ (plug-in lambda, plug-in variance)",plugin,True,False,plugin,,0.05,ATE,42,,,,,,0.9,0.11300755537024793,,,,,,,,,,,bootstrap_sensitivity,,0.8
+1,pi_L=0.8; B=nan,0.8,10000.0,500,allunits_crossfit,8,"PPI++ (plug-in lambda, clipped)",plugin,True,False,exact,,0.05,ATE,42,,,,,,0.946,0.13147493169840102,,,,,,,,,,,bootstrap_sensitivity,,0.8
+1,pi_L=0.8; B=nan,0.8,10000.0,500,allunits_crossfit,3,PPI++ (plug-in variance),exact,False,False,plugin,,0.05,ATE,42,,,,,,0.948,0.12976102378005164,,,,,,,,,,,bootstrap_sensitivity,,0.8
+1,pi_L=0.8; B=nan,0.8,10000.0,500,allunits_crossfit,3,PPI++,exact,False,False,exact,,0.05,ATE,42,,,,,,0.948,0.12976287456594948,,,,,,,,,,,bootstrap_sensitivity,,0.8
+1,pi_L=0.8; B=50.0,0.8,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.906,0.12153225204224224,,,,,,,,,,50.0,bootstrap_sensitivity,50.0,0.8
+1,pi_L=0.8; B=100.0,0.8,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.928,0.12604366081185625,,,,,,,,,,100.0,bootstrap_sensitivity,100.0,0.8
+1,pi_L=0.8; B=200.0,0.8,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.936,0.12821473266171202,,,,,,,,,,200.0,bootstrap_sensitivity,200.0,0.8
+1,pi_L=0.8; B=500.0,0.8,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.942,0.1303860952083294,,,,,,,,,,500.0,bootstrap_sensitivity,500.0,0.8
+1,pi_L=0.8; B=1000.0,0.8,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.948,0.13089766059614563,,,,,,,,,,1000.0,bootstrap_sensitivity,1000.0,0.8
+1,pi_L=1.0; B=nan,1.0,10000.0,500,allunits_crossfit,3,"PPI++ (plug-in lambda, plug-in variance)",plugin,True,False,plugin,,0.05,ATE,42,,,,,,0.946,0.12368460714887403,,,,,,,,,,,bootstrap_sensitivity,,1.0
+1,pi_L=1.0; B=nan,1.0,10000.0,500,allunits_crossfit,8,"PPI++ (plug-in lambda, clipped)",plugin,True,False,exact,,0.05,ATE,42,,,,,,0.946,0.12368460714887403,,,,,,,,,,,bootstrap_sensitivity,,1.0
+1,pi_L=1.0; B=nan,1.0,10000.0,500,allunits_crossfit,3,PPI++ (plug-in variance),exact,False,False,plugin,,0.05,ATE,42,,,,,,0.946,0.12368460714887403,,,,,,,,,,,bootstrap_sensitivity,,1.0
+1,pi_L=1.0; B=nan,1.0,10000.0,500,allunits_crossfit,3,PPI++,exact,False,False,exact,,0.05,ATE,42,,,,,,0.946,0.12368460714887403,,,,,,,,,,,bootstrap_sensitivity,,1.0
+1,pi_L=1.0; B=50.0,1.0,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.924,0.11409577613082947,,,,,,,,,,50.0,bootstrap_sensitivity,50.0,1.0
+1,pi_L=1.0; B=100.0,1.0,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.93,0.11857756031209185,,,,,,,,,,100.0,bootstrap_sensitivity,100.0,1.0
+1,pi_L=1.0; B=200.0,1.0,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.938,0.12124253031341153,,,,,,,,,,200.0,bootstrap_sensitivity,200.0,1.0
+1,pi_L=1.0; B=500.0,1.0,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.94,0.12269535273841872,,,,,,,,,,500.0,bootstrap_sensitivity,500.0,1.0
+1,pi_L=1.0; B=1000.0,1.0,10000.0,500,allunits_crossfit,7,PPI++ (bootstrap variance),plugin,True,False,bootstrap,,0.05,ATE,42,,,,,,0.944,0.12303727462310364,,,,,,,,,,1000.0,bootstrap_sensitivity,1000.0,1.0

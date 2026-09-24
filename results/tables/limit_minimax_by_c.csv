@@ -1,0 +1,8 @@
+c,is_limit_minimax_c,worst_case_excess_risk,ratio_to_c_star
+0.5,False,13.120,1.712
+1.0,False,9.866,1.288
+1.5,False,7.880,1.028
+1.6,True,7.663,1.000
+1.7,False,8.098,1.057
+2.0,False,9.398,1.226
+3.0,False,13.825,1.804

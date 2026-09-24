@@ -1,0 +1,55 @@
+cell,dgp,rho,n,pi_L,R,reps,B_clustered,B_rows,learner,diagnostic_null,quantity,estimator,value,mc_se,ratio_to_mc,ratio_mc_se
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(SI),Monte Carlo,0.0006490879604436764,7.145433702324385e-05,1.0,0.0
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(SI),plug-in,0.000618475793653721,1.7503429691000421e-06,0.9528381842592939,0.1053760066909398
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(SI),"bootstrap, row folds",0.000661112750145629,6.667368599622386e-06,1.0185256705327475,0.1154582207887699
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(SI),"bootstrap, clustered folds",0.0006782284672955275,1.051919152491989e-05,1.0448945422311213,0.11556385713684017
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(SI),clustered / row-fold bootstrap,1.0258892558737194,0.019130742340352648,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(PPI++),Monte Carlo,0.00279657625958347,0.00028597625570427965,1.0,0.0
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(PPI++),exact,0.0027198861981982607,5.3992344923949826e-06,0.9725771606898245,0.1000467202316114
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(PPI++),"bootstrap, row folds",0.0020597996849218846,1.9012060057610232e-05,0.7365433636444718,0.0767731227222099
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(PPI++),"bootstrap, clustered folds",0.002870476938617498,4.425770026659494e-05,1.0264254117086136,0.1087879388050409
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(PPI++),clustered / row-fold bootstrap,1.393570918390716,0.025894955790854282,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(D),Monte Carlo,0.002008542889399981,0.00020544158180331334,1.0,0.0
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(D),fixed-predictor,0.0021548587224742123,5.6170991997841375e-06,1.0728467556487882,0.1101049564886368
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(D),"bootstrap, row folds",0.0013552397784426435,1.3312599324732367e-05,0.674737784089589,0.0710147418741101
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(D),"bootstrap, clustered folds",0.002345779215741488,3.382562586331702e-05,1.1679009834050649,0.12438069472971157
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,Var(D),clustered / row-fold bootstrap,1.730896076882506,0.027982341595383785,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,SI coverage,plug-in,0.94,0.01679285562374667,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,SI coverage,"bootstrap, row folds",0.945,0.016120638945153514,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,SI coverage,"bootstrap, clustered folds",0.955,0.014658615214269054,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,PPI++ coverage,exact,0.94,0.01679285562374667,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,PPI++ coverage,"bootstrap, row folds",0.925,0.01862458053218917,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,PPI++ coverage,"bootstrap, clustered folds",0.945,0.016120638945153514,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,diagnostic size (alpha = 0.05),fixed-predictor,0.065,0.017432010784760317,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,diagnostic size (alpha = 0.05),"bootstrap, row folds",0.12,0.022978250586152115,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,diagnostic size (alpha = 0.05),"bootstrap, clustered folds",0.045,0.014658615214269049,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,diagnostic size (alpha = 0.10),fixed-predictor,0.105,0.021676600286945368,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,diagnostic size (alpha = 0.10),"bootstrap, row folds",0.14,0.024535688292770596,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,200,all,50,100,gbt,True,diagnostic size (alpha = 0.10),"bootstrap, clustered folds",0.095,0.020733427116615334,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(SI),Monte Carlo,0.0006008309085214943,0.00010758745342952869,1.0,0.0
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(SI),plug-in,0.000619745468659976,2.578690270830661e-06,1.0314806709678537,0.19409532664086074
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(SI),"bootstrap, row folds",0.000659799279940435,1.0287565090870872e-05,1.09814470358066,0.20897494910511064
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(SI),"bootstrap, clustered folds",0.0006767281493121509,1.4924334897029445e-05,1.126320466730685,0.2168131256305757
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(SI),clustered / row-fold bootstrap,1.025657605102637,0.02722811533112556,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(PPI++),Monte Carlo,0.0026566434666002643,0.00040426475364480443,1.0,0.0
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(PPI++),exact,0.002729757565339851,7.759112789967356e-06,1.027521231079288,0.1683703144084649
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(PPI++),"bootstrap, row folds",0.002065300356227518,2.9045480510752394e-05,0.7774096833816039,0.12360732088885729
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(PPI++),"bootstrap, clustered folds",0.0028876854404429205,6.174523167363797e-05,1.0869676254067782,0.18940110780206604
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(PPI++),clustered / row-fold bootstrap,1.398191518117768,0.038357515432469146,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(D),Monte Carlo,0.001940953081675253,0.00027854021214436834,1.0,0.0
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(D),fixed-predictor,0.0021641918998708733,7.940343801882681e-06,1.1150150512669483,0.17054857428716608
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(D),"bootstrap, row folds",0.001376255135048819,1.8503694114540343e-05,0.7090615162428149,0.11163522798070784
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(D),"bootstrap, clustered folds",0.002378676988109674,4.6721707400668515e-05,1.2255200862746347,0.1939763533786487
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,Var(D),clustered / row-fold bootstrap,1.7283692009805267,0.04110426885603097,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,SI coverage,plug-in,0.96,0.019595917942265433,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,SI coverage,"bootstrap, row folds",0.96,0.019595917942265433,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,SI coverage,"bootstrap, clustered folds",0.96,0.019595917942265433,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,PPI++ coverage,exact,0.94,0.023748684174075843,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,PPI++ coverage,"bootstrap, row folds",0.92,0.027129319932501065,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,PPI++ coverage,"bootstrap, clustered folds",0.93,0.02551470164434614,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,diagnostic size (alpha = 0.05),fixed-predictor,0.07,0.02551470164434615,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,diagnostic size (alpha = 0.05),"bootstrap, row folds",0.12,0.03249615361854384,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,diagnostic size (alpha = 0.05),"bootstrap, clustered folds",0.04,0.019595917942265423,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,diagnostic size (alpha = 0.10),fixed-predictor,0.11,0.03128897569432403,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,diagnostic size (alpha = 0.10),"bootstrap, row folds",0.13,0.03363034344160047,,
+"DGP 1, pi_L = 0.20",1,,10000,0.2,100,first 100,50,100,gbt,True,diagnostic size (alpha = 0.10),"bootstrap, clustered folds",0.1,0.030000000000000002,,
