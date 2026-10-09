@@ -2,7 +2,7 @@
 
 Replication code for the paper by Zihao Chen (University of Washington).
 
-Paper: arXiv:XXXX.XXXXX (identifier to be added when the preprint is posted).
+Paper: [arXiv:2609.30528](https://arxiv.org/abs/2609.30528).
 
 The package contains the estimators, the data-generating processes, the
 simulation engine, the scripts that run every simulation and real-data analysis

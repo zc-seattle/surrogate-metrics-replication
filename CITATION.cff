@@ -26,10 +26,11 @@ preferred-citation:
       affiliation: "University of Washington"
   year: 2026
   journal: "arXiv preprint"
-  # NOTE: fill in once the preprint is posted.
-  notes: "arXiv ID to be added"
   identifiers:
+    - type: doi
+      value: "10.48550/arXiv.2609.30528"
+      description: "arXiv DOI"
     - type: other
-      value: "arXiv:XXXX.XXXXX"
-      description: "arXiv identifier (placeholder; to be added on posting)"
-  url: "https://arxiv.org/abs/XXXX.XXXXX"
+      value: "arXiv:2609.30528"
+      description: "arXiv identifier"
+  url: "https://arxiv.org/abs/2609.30528"
